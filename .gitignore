@@ -29,3 +29,10 @@ dist/
 # Logs and databases
 *.log
 *.sqlite3
+/lib64
+/bin
+/lib
+/lib
+/lib
+/lib
+/lib
