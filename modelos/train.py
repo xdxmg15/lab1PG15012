@@ -11,7 +11,7 @@ from joblib import dump
 
 
 dataset = pd.read_csv(
-    'data/processed/dataset.csv'
+    'csv/resultado/dataset.csv'
 )
 
 features = [
@@ -86,7 +86,7 @@ print(
 
 dump(
     model,
-    'models/world_cup_model.joblib'
+    'modelos/world_cup_model.joblib'
 )
 
 print('Modelo guardado.')

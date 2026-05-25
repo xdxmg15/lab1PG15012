@@ -103,7 +103,7 @@ dataset = results.dropna(
 )
 
 dataset.to_csv(
-    'csv/dataset.csv',
+    'csv/resultado/dataset.csv',
     index=False
 )
 
